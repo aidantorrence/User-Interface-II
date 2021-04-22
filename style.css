@@ -4,6 +4,25 @@
     max-width: 1000px;
 } */
 
+@media (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        text-align: center;
+        justify-content: center;
+        margin: auto 0;
+        
+    }
+
+    .first-row__flex-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
+
+}
 
 h1 {
     font-size: 70px;
